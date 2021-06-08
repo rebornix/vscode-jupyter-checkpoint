@@ -1,20 +1,24 @@
 {
-  "name": "vscode-jupyter-checkpoint",
-	"displayName": "vscode-jupyter-checkpoint",
+	"name": "vscode-jupyter-checkpoint",
+	"displayName": "Jupyter Checkpoint",
 	"description": "Checkpoint control of Jupyter",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.54.0"
 	},
+	"publisher": "rebornix",
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-        "*"
+		"*"
 	],
+	"icon": "./images/icon.png",
 	"main": "./out/extension.js",
-	"contributes": {
+	"repository": {
+		"url": "https://github.com/rebornix/vscode-jupyter-checkpoint"
 	},
+	"contributes": {},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
 		"compile": "tsc -p ./",
