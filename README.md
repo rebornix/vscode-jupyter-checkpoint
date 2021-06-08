@@ -1,3 +1,3 @@
 # VS Code Jupyter Checkpoint support
 
-Support checkpoi
+Support checkpoint files tracking and diffing in VS Code SCM view.

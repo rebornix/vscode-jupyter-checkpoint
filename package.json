@@ -13,7 +13,8 @@
 	"activationEvents": [
 		"*"
 	],
-	"icon": "./images/icon.png",
+	"preview": true,
+	"icon": "images/icon.png",
 	"main": "./out/extension.js",
 	"repository": {
 		"url": "https://github.com/rebornix/vscode-jupyter-checkpoint"
