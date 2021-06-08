@@ -19,6 +19,7 @@
 	"repository": {
 		"url": "https://github.com/rebornix/vscode-jupyter-checkpoint"
 	},
+	"license": "MIT",
 	"contributes": {},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
